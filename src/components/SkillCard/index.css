@@ -1,0 +1,11 @@
+.skill-card-animation:hover {
+  background-color: #f2f0ef;
+  color: black;
+  transition: background-color cubic-bezier(0.445, 0.05, 0.55, 0.95) ease-in;
+  cursor: default;
+  .img-tech {
+    scale:1.15;
+    transition: all 0.3s ease-in-out;
+  }
+  
+}

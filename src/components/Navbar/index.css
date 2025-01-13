@@ -1,0 +1,13 @@
+.navbar-button {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.navbar-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
