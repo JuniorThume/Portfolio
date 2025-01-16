@@ -3,7 +3,7 @@ import photo from '../../assets/user_photo.png';
 
 const Presentation = () => {
   return (
-    <div className='flex flex-col items-center my-4' id='about'>
+    <div className='flex flex-col items-center my-4'>
       <div className='w-full flex justify-center py-10'>
         <img src={photo} className='rounded-full self-center w-[230px] outline outline-2 p-1' />
       </div>
