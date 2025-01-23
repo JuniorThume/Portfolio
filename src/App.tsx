@@ -5,6 +5,7 @@ import SkillsAndTechs from './sections/SkillsTechs'
 import Contact from './sections/Contact'
 import GoTopButton from './components/GoTopButton'
 import About from './sections/About'
+import Projects from './sections/Projects'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Presentation />
       <About/>
       <SkillsAndTechs />
+      <Projects />
       <Contact />
       <GoTopButton />
     </div>
