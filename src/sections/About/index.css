@@ -1,0 +1,40 @@
+.about-card {
+  position: relative;
+  color: black;
+  padding: 40px;
+  border-radius: 8px;
+  z-index: 1;
+  
+  && h3, h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  && p {
+    margin-left: 10px;
+    font-size: 17px;
+    text-align: justify;
+  }
+  
+  && p > span {
+    font-weight: 500;
+  }
+  
+  && p:hover {
+    font-weight: 500;
+    cursor: default;
+  }
+}
+
+.about-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  z-index: -1;
+}
