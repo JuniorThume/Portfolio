@@ -10,6 +10,9 @@ import mongo from '../../assets/techs/MongoDB.svg';
 import postgres from '../../assets/techs/PostgresSQL.svg';
 import postman from '../../assets/techs/Postman.svg';
 import react from '../../assets/techs/React.svg';
+import tailwind from '../../assets/techs/Tailwind CSS.svg';
+import python from '../../assets/techs/Python.svg';
+import go from '../../assets/techs/Go.svg';
 
 const skills = [
   {
@@ -56,6 +59,18 @@ const skills = [
   {
     image: react,
     name: 'React',
+  },
+  {
+    image: tailwind,
+    name: 'Tailwind CSS',
+  },
+  {
+    image: python,
+    name: 'Python',
+  },
+  {
+    image: go,
+    name: 'Go',
   }
 ]
 

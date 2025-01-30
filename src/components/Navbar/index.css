@@ -1,6 +1,7 @@
 .navbar-button {
-  width: 70px;
+  width: 100%;
   display: flex;
+  color: black;
   justify-content: center;
   align-items: center;
   border-radius: 5px;

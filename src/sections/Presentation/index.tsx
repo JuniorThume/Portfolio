@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../assets/resume/resumeVTJ.pdf';
 import photo from '../../assets/user_photo.png';
 
 const Presentation = () => {
@@ -9,11 +10,11 @@ const Presentation = () => {
       </div>
       <h2 className='text-[2rem] font-[600]'>Valmir Thume Junior</h2>
       <p>23 anos</p>
-      <div className='border p-1 hover:bg-white hover:text-black hover:cursor-pointer '>
-        Download CV
+      <div className='mb-5'>
+        <span>Campina das Missões - RS 📍</span>
       </div>
-
-      <div className=''>
+      <div className='border p-2 hover:bg-white hover:text-black hover:cursor-pointer rounded'>
+        <a href={resume} download='ValmirThumeJunior-Resume.pdf' type='application/pdf'>Download Currículo</a>
       </div>
     </div>
   );
