@@ -1,4 +1,3 @@
-import React from 'react';
 import resume from '../../assets/resume/resumeVTJ.pdf';
 import photo from '../../assets/user_photo.png';
 
