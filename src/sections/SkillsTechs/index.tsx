@@ -75,9 +75,8 @@ const skills = [
 ]
 
 const SkillsAndTechs = () => {
-
   return (
-    <div className='w-2/3 justify-self-center p-2' id='techs'>
+    <div className='w-2/3 justify-self-center my-40' id='techs'>
       
       <h2 className='text-center text-[3rem]' id='skills_techs'>Tecnologias trabalhadas</h2>
       

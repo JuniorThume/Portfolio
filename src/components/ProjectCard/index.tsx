@@ -13,7 +13,7 @@ interface ProjectCardProps {
 
 const ProjectCard = ({project}: ProjectCardProps) => {
   return (
-    <div className='relative rounded bg-white text-black p-4'>
+    <div className='h-[150px] relative rounded bg-white text-black p-4'>
       <div>
         <h2 className='text-2xl'>{project.name}</h2>
       </div>

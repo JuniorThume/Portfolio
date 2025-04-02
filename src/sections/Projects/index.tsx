@@ -36,9 +36,8 @@ const projects = [
 ]
 
 const Projects = () => {
-
   return (
-    <div id='projects' className='flex flex-col justify-self-center relative items-center w-2/3 my-7'>
+    <div id='projects' className='flex flex-col justify-self-center relative items-center w-2/3 my-40'>
       <div className='flex w-full justify-center items-center'>
         <h2 className='text-[3rem]'>Projetos</h2>
         <a href="https://github.com/JuniorThume?tab=repositories" target="_blank" rel="noopener noreferrer" className='flex absolute right-1 p-1 gap-2 items-center bg-[#8888] text-black rounded hover:scale-[1.17] hover:bg-[#AAAA] transition'>
@@ -46,7 +45,7 @@ const Projects = () => {
           <img src={github} alt="Logo do GitHub" width={30} />
         </a>
       </div>
-      <div className='p-2 mt-5 gap-1 overflow-y-auto max-h-[500px] w-full flex flex-col'>
+      <div className='p-2 mt-5 gap-1 overflow-y-auto max-h-[750px] w-full flex flex-col'>
         {
           projects?.map((pjt) => {
             return (<ProjectCard project={pjt} />)

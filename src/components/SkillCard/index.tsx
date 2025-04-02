@@ -1,4 +1,3 @@
-
 import './index.css';
 import certificate from '../../assets/certificate.svg';
 interface SkillCardProps {

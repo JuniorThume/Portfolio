@@ -2,7 +2,7 @@ import './index.css';
 
 const About = () => {
   return (
-    <div id='about' className='flex flex-col w-1/2 justify-self-center about-card my-20'>
+    <div id='about' className='flex flex-col w-1/2 justify-self-center about-card my-40'>
       <h3 className='font-bold'>Olá!🖐</h3>
       <p className=''>
         Me chamo <span>Valmir Thume Junior</span>, também conhecido como <i>Junior</i>.

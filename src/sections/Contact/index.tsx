@@ -23,7 +23,7 @@ const social_medias = [
 
 const Contact = () => {
   return (
-    <div className='w-2/3 justify-self-center p-2 mt-5 mb-10' id='contact'>
+    <div className='w-2/3 justify-self-center p-2 my-40' id='contact'>
       <h2 className='text-[3rem] text-center'>Contato</h2>
       <div id='contact-infos' className='grid grid-cols-3 gap-10 pt-7'>
         {
